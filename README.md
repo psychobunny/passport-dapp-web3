@@ -6,7 +6,7 @@
 
 It's probably important to note that I have no idea what I'm doing, and so you really should read this code yourself before you put it up on any production environment. But it works for me so please give it a try and submit any pull requests if you find anything derpy.
 
-This is based on [passport-local](https://github.com/jaredhanson/passport-local) by [Jared Hanson](https://github.com/jaredhanson/). Additional credit goes to [web3.js](https://github.com/ChainSafe/web3.js/) by [https://github.com/ChainSafe/](ChainSafe) for doing the heavy lifting.
+This is based on [passport-local](https://github.com/jaredhanson/passport-local) by [Jared Hanson](https://github.com/jaredhanson/). Additional credit goes to [web3.js](https://github.com/ChainSafe/web3.js/) by [ChainSafe](https://github.com/ChainSafe/) for doing the heavy lifting.
 
 
 ---
