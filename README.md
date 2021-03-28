@@ -91,7 +91,7 @@ accordingly.
     passport.use(new Web3Strategy({
         addressField: 'email',
         messageField: 'passwd',
-        signedField: 'batman',
+        passReqToCallback: true,
         session: false
       },
       function(req, address, message, signed, done) {
