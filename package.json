@@ -34,6 +34,13 @@
   ],
   "main": "./lib",
   "dependencies": {
+    "before": "0.0.1",
+    "describe": "^1.2.0",
+    "expect": "^26.6.2",
+    "istanbul": "^0.4.5",
+    "it": "^1.1.1",
+    "jsdoc": "^3.6.6",
+    "jshint": "^2.12.0",
     "passport-strategy": "1.x.x",
     "web3-eth-accounts": "^1.3.4"
   },
@@ -47,6 +54,6 @@
     "node": ">= 0.4.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "make test"
   }
 }

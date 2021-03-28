@@ -1,5 +1,7 @@
 /* global describe, it, expect */
-
+var expect = require('expect');
+var describe = require('describe');
+var it = require('it');
 var strategy = require('..');
 
 describe('passport-web3', function() {

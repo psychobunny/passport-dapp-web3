@@ -1,5 +1,10 @@
 /* global describe, it, expect, before */
 
+var expect = require('expect');
+var describe = require('describe');
+var before = require('before');
+var it = require('it');
+
 var chai = require('chai')
   , Strategy = require('../lib/strategy');
 
