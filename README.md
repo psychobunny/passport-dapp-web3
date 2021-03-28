@@ -13,7 +13,7 @@ This is based on [passport-local](https://github.com/jaredhanson/passport-local)
   <sup>Sponsors</sup>
   <br>
   <a href="https://nodebb.org">
-    <img src="/NodeBB/NodeBB/raw/master/public/images/logo.svg" alt="NodeBB" style="max-width:100%;">
+    <img src="https://raw.githubusercontent.com/NodeBB/NodeBB/master/public/images/logo.svg" alt="NodeBB" style="max-width:100%;">
   </a><br/>
   <a href="https://nodebb.org">NodeBB</a> is a node.js-based forum software that's lightning quick, easily customizable, and of course, open source. And guess what this repository is for! Don't you want a community platform that you can SSO via your crypto wallet? Of course you do, that's possibly why you're here? Go go go fork and have fun! ;D</a>
 </p>
