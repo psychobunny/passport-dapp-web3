@@ -1,5 +1,9 @@
 /* global describe, it, expect */
 
+var expect = require('expect');
+var describe = require('describe');
+var it = require('it');
+
 var Strategy = require('../lib/strategy');
 
 
