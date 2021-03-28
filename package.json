@@ -1,6 +1,6 @@
 {
   "name": "passport-dapp-web3",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Web3 authentication strategy for your dapp :tm: using Passport.",
   "keywords": [
     "passport",
