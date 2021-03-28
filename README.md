@@ -118,11 +118,10 @@ app.post('/login',
 
 ## Examples
 
-Developers using the popular [Express](http://expressjs.com/) web framework can
-refer to an [example](https://github.com/passport/express-4.x-local-example)
-as a starting point for their own web applications.
+If you use this module, please submit a PR to add your project here, even if it's closed source I'd love to see who is using it! Also, if it's on GH/etc, someone else can hopefully look at your code as an example on how to implement it. I hit my head against the wall about 99 times on the way to making this repo and the corresponding NodeBB SSO plugin due to lack of examples in the wild so let's change that. Thanks!
 
-Additional examples can be found on the [wiki](https://github.com/jaredhanson/passport-local/wiki/Examples).
+* [NodeBB forum SSO plugin](https://github.com/psychobunny/nodebb-plugin-sso-web3)
+
 
 ## License
 
