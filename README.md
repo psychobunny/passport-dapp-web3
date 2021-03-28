@@ -13,7 +13,7 @@ This is based on [passport-local](https://github.com/jaredhanson/passport-local)
   <sup>Sponsors</sup>
   <br>
   <a href="https://nodebb.org">
-    <img src="/NodeBB/NodeBB/raw/master/public/images/logo.svg" alt="NodeBB" style="max-width:100%;">
+    <img src="https://raw.githubusercontent.com/NodeBB/NodeBB/master/public/images/logo.svg" alt="NodeBB" style="max-width:100%;">
   </a><br/>
   <a href="https://nodebb.org">NodeBB</a> is a node.js-based forum software that's lightning quick, easily customizable, and of course, open source. And guess what this repository is for! Don't you want a community platform that you can SSO via your crypto wallet? Of course you do, that's possibly why you're here? Go go go fork and have fun! ;D</a>
 </p>
@@ -31,8 +31,8 @@ $ npm install passport-dapp-web3
 
 #### Configure Strategy
 
-The web3 authentication strategy authenticates users using a username and
-password.  The strategy requires a `verify` callback, which accepts these
+The web3 authentication strategy authenticates users using an address, message, and signed message. 
+The strategy requires a `verify` callback, which accepts these
 credentials and calls `done` providing a user.
 
 ```js
@@ -63,7 +63,7 @@ Both fields define the name of the properties in the POST body that are sent to 
 #### Parameters
 
 By default, `Web3Strategy` expects to find credentials in parameters
-named username and password. If your site prefers to name these fields
+named address, message, and signed. If your site prefers to name these fields
 differently, options are available to change the defaults. I don't even
 know why I am supporting this but I suppose if you're too lazy or unable to 
 change the existing form that you have, then lucky you.
@@ -74,7 +74,7 @@ change the existing form that you have, then lucky you.
         signedField: 'pineapples',
         session: false
       },
-      function(username, password, done) {
+      function(address, message, signed, done) {
         // ...
       }
     ));
@@ -92,7 +92,7 @@ accordingly.
         signedField: 'batman',
         session: false
       },
-      function(req, username, password, done) {
+      function(req, address, message, signed, done) {
         // request object is now first argument
         // ...
       }
@@ -127,4 +127,5 @@ Additional examples can be found on the [wiki](https://github.com/jaredhanson/pa
 [The MIT License](http://opensource.org/licenses/MIT)
 
 Copyright (c) 2021 Andrew Carnegie Rodrigues <[https://github.com/psychobunny](https://github.com/psychobunny)>
+
 Copyright (c) 2011-2015 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
