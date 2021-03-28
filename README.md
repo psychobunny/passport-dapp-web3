@@ -127,4 +127,5 @@ Additional examples can be found on the [wiki](https://github.com/jaredhanson/pa
 [The MIT License](http://opensource.org/licenses/MIT)
 
 Copyright (c) 2021 Andrew Carnegie Rodrigues <[https://github.com/psychobunny](https://github.com/psychobunny)>
+
 Copyright (c) 2011-2015 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
