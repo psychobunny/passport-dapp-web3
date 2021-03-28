@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/psychobunny/passport-dapp-web3/actions/workflows/node.js.yml/badge.svg)](https://github.com/psychobunny/passport-dapp-web3/actions/workflows/node.js.yml)
+
 # passport-dapp-web3
 
 [Passport](http://passportjs.org/) strategy for authenticating with an address, message, and signed message for one-click secure :tm: SSO for your web3 based dapp.
